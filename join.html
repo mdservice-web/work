@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Join MD Service Work | Free Partner Application</title>
+  <meta name="description" content="Join MD Service for free. Bring local-business website clients and earn 20% commission on successful client payments. No special skill required.">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="MD Service logo">
+        <span class="brand-text">
+          <strong>MD Service Work</strong>
+          <span>Partner Program</span>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="index.html#how">How It Works</a>
+        <a href="index.html#commission">Commission</a>
+        <a href="rules.html">Rules</a>
+        <a href="join.html" aria-current="page" class="btn btn-primary" style="min-height:42px;padding:8px 14px">Join Free</a>
+      </nav>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">☰</button>
+    </div>
+    <div class="container">
+      <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile">
+        <a href="index.html">Home</a>
+        <a href="index.html#how">How It Works</a>
+        <a href="join.html">Join MD Service</a>
+        <a href="rules.html">Partner Rules</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Join MD Service</p>
+        <h1>Free Mein MD Service Team Ka Hissa Baniye</h1>
+        <p class="lead">Form fill karke apni application submit karein. MD Service application review karne ke baad aapse contact karega. Joining free hai. Isse ownership, equity ya management rights nahi milte.</p>
+      </div>
+    </section>
+
+    <section style="padding-top:12px">
+      <div class="container" style="max-width:720px">
+        <form id="partner-form" class="form-card" novalidate>
+          <div class="field">
+            <label for="fullName">Full Name</label>
+            <input id="fullName" name="fullName" type="text" autocomplete="name" required>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label for="age">Age</label>
+            <span class="hint">Minimum 16 years</span>
+            <input id="age" name="age" type="number" min="16" max="99" inputmode="numeric" required>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label for="city">City</label>
+            <input id="city" name="city" type="text" autocomplete="address-level2" required>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label for="whatsapp">WhatsApp Number</label>
+            <input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" required>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label for="occupation">Occupation / What do you do?</label>
+            <input id="occupation" name="occupation" type="text" required>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label for="businesses">What type of local businesses can you reach?</label>
+            <textarea id="businesses" name="businesses" required placeholder="Example: shops, salons, clinics, gyms in my area"></textarea>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label for="method">How can you bring clients to MD Service?</label>
+            <textarea id="method" name="method" required></textarea>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label for="source">How did you hear about MD Service?</label>
+            <input id="source" name="source" type="text" required>
+            <span class="error"></span>
+          </div>
+          <div class="field">
+            <label class="check" for="terms">
+              <input id="terms" name="terms" type="checkbox" required>
+              <span>Main Partner Rules, Terms &amp; Conditions aur Privacy Policy padh kar accept karta/karti hoon. Mujhe pata hai ki partner/team member banne se MD Service ki ownership nahi milti, aur commission sirf successful full client payment ke baad applicable hota hai.</span>
+            </label>
+            <span class="error"></span>
+          </div>
+          <button class="btn btn-primary btn-block" id="submit-btn" type="submit">Submit Application</button>
+          <div id="form-success" class="form-msg ok" role="status">
+            <strong>Application Submitted Successfully!</strong>
+            <p>Thank you for your interest in joining MD Service. Your application has been received. MD Service will review your details and contact you.</p>
+          </div>
+          <div id="form-error" class="form-msg" role="alert">
+            Application submit nahi ho paayi. Please thodi der baad dobara try karein.
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot-grid">
+      <div>
+        <p><strong style="color:var(--text)">MD Service Work</strong></p>
+        <p>A free partner opportunity to bring local-business clients to MD Service and earn 20% commission on successful client payments.</p>
+      </div>
+      <nav class="foot-links" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="index.html#how">How It Works</a>
+        <a href="index.html#commission">Commission</a>
+        <a href="join.html">Join MD Service</a>
+        <a href="rules.html">Partner Rules</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </nav>
+    </div>
+    <div class="container copy">© 2026 MD Service. All rights reserved.</div>
+  </footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
